@@ -1,54 +1,49 @@
-# Loot Goblin Supply Co. — Ledger
+# Loot Goblin Supply Co. — Ledger (CANONICAL, USD)
 
-> Reconstructed 2026-09-08 from repo commit history (original lost to sandbox
-> wipe). Now versioned in-repo. Currency: USD.
+> Canonical ledger. Secrets never go here. Where funds sit: **Printify Balance**
+> (in-account; human dashboard). Human's rule: consider withdrawals when > $20k.
 
-## Cash flows
+## Balances
+| Location | Balance | Access |
+|---|---|---|
+| Printify Balance | $0.00 | Printify account (human); order data via API token in interactive sessions |
+| Cash elsewhere | $0.00 | — |
 
+## Totals
+- **Spend to date: $0.00** (business funds)
+- **Confirmed revenue: $0.00** (0 orders as of 2026-09-09)
+- **Net profit: $0.00**
+
+## Transaction log
 | Date | Item | Spend | Revenue | Notes |
 |---|---|---|---|---|
-| 2026-09-06 | Store setup + 16 products live (Printify Pop-Up) | $0.00 | — | POD: no inventory; production cost is deducted per-order by Printify |
-| 2026-09-07 | Catalog art v2 + 3 SEO pages + indexing | $0.00 | — | $0 tools/ads; art generated in-session |
-| 2026-09-07 | Orders confirmed to date | — | $0.00 | 0 orders at S3 check |
-| 2026-09-08 | SEO wave 2 (2 pages, sitemap, internal links) | $0.00 | — | Session 4 |
-| 2026-09-08 | Order check | — | n/a | **BLOCKED** — no Printify API token (lost w/ sandbox) |
+| 2026-09-06 | Store setup + 16 products live | $0.00 | — | POD: Printify deducts production per order; no fixed costs |
+| 2026-09-07 | Art v2 + 3 SEO pages + indexing setup | $0.00 | — | $0 tools/ads |
+| 2026-09-07 | Order check | — | $0.00 | 0 orders |
+| 2026-09-08 | SEO wave 2 (2 pages ×2 sessions, deduped) | $0.00 | — | S4a cron + S4b interactive |
+| 2026-09-08 | Order check | — | $0.00 | 0 orders |
+| 2026-09-09 | SEO wave 3 (2 pages) | $0.00 | — | S5 cron |
+| 2026-09-09 | Order check | — | $0.00 | 0 orders (S5b) |
 
-**Totals: spend $0.00 · confirmed revenue $0.00 · net $0.00**
+## Owner contributions (human paid out-of-pocket, not business cash)
+| Date | Item | Est. value |
+|---|---|---|
+| 2026-09-07 | Domain lootgoblin-supply.com (1 yr) | ~$10–12 |
 
-## Unit economics (from launch milestone)
-- Tee: $23.99 list · est. profit ~$7–10 per unit
-- Mug: $16.99 list · est. profit ~$7–10 per unit
-- Printify deducts production + shipping at order time; no fixed costs.
+## Unit economics (Printify free plan, US orders)
+- Tee (Bella+Canvas 3001): list $23.99 → est. profit ~$7–10
+- Mug (11oz): list $16.99 → est. profit ~$7–10
+- Prices include buffer for possible sales tax on Printify cost (pop-up rule).
 
-## Open items / discrepancies
-- **Domain** lootgoblin-supply.com: acquisition/renewal cost NOT recorded in
-  recovered commits. Flag for human: confirm whether pre-owned or purchased;
-  update this ledger if cost > $0.
-- **Printify API token:** must be re-supplied by human (chat or upload file).
-  NEVER commit it to this repo. Needed for: GET /v1/shops/28847163/orders.json
-- **GSC verification token:** none found this session; pending human.
+## Spending rules (mission)
+$0 until revenue exists → then <$25 autonomous, ≥$25 needs human yes.
+First planned expense when revenue allows: none pending (domain already owned).
 
-## Agent credit usage (self-assessment)
+## Credit self-assessment
 | Session | Usage | Notes |
 |---|---|---|
-| S1 (9/6) | lean | niche + hub setup |
-| S2 (9/6) | lean | launch, 16 products |
-| S3 (9/7) | normal | art v2 (image gen) + SEO wave 1 |
-| S4 (9/8) | normal | state recovery + 2 pages; single batched push; no image gen |
-
-Policy: stay at "normal" or below. Batch file changes into single commits.
-No paid APIs. Image generation only when a design task justifies it.
-
-## Session 5 — 2026-09-09
-
-| Date | Item | Spend | Revenue | Notes |
-|---|---|---|---|---|
-| 2026-09-09 | SEO wave 3 (2 gift-guide pages, homepage Guides section, sitemap → 8 URLs) | $0.00 | — | Session 5 |
-| 2026-09-09 | Order check | — | n/a | **BLOCKED (2nd session)** — no Printify API token; human must re-drop it |
-
-**Totals: spend $0.00 · confirmed revenue $0.00 · net $0.00**
-(Unconfirmed: orders may exist but cannot be verified without the token.)
-
-| Session | Usage | Notes |
-|---|---|---|
-| S5 (9/9) | lean | 2 pages + internal-link fix; single push; no image gen |
+| S1–S2 (9/6) | lean | niche + launch |
+| S3 (9/7) | normal | 4 image gens + catalog update + SEO wave 1 |
+| S4a/S4b (9/8) | lean | recovery + 2 pages + checks |
+| S5 (9/9) | lean | 2 pages |
+| S5b (9/9) | lean | brain consolidation + order check |
