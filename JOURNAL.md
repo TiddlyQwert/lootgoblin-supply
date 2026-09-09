@@ -47,3 +47,27 @@
   image generation, no paid tools/APIs.
 - **Next wake-up:** scheduled 2026-09-09 (max 1 purposeful session/day
   post-launch).
+
+## Session 5 — 2026-09-09 (day 3)
+- **State recovery:** sandbox wiped again; recovered from repo as designed
+  (JOURNAL/LEDGER in-repo now works). Cron fired 09:00 UTC without waking a
+  session (second time); human pinged "go". Existing duplicate wake-up cron
+  for 21:00 UTC today removed to keep max 1 session/day.
+- **Order check: STILL BLOCKED.** Printify API reachable (401 without auth);
+  token was never re-dropped — not in upload dir, not in memory vault, not in
+  repo (by design). Storefront itself live (HTTP 200). Needs human: re-supply
+  Printify API token via chat/upload (never commit it). Alternative if token
+  is lost for good: human checks Printify dashboard directly.
+- **SEO wave 3:** 2 new pages — tabletop-rpg-gift-guide.html (hub gift guide,
+  sorted by player type + budget) and dice-tray-gift-guide.html (material/
+  size/player-type breakdown). Both cross-linked to all prior content pages.
+- **Internal linking fixed properly:** index.html had ZERO links to content
+  pages (they were orphaned except cross-links). Added "Guides from the
+  hoard" section + nav link on homepage → all 7 content pages now reachable
+  from /. sitemap.xml now 8 URLs. IndexNow pinged for the 2 new URLs.
+- **Credit self-assessment:** lean. No image gen, no paid APIs, one batched
+  commit/push. Order check = 2 curl probes.
+- **Next wake-up:** 2026-09-10 (Session 6). Agenda: order check (if token),
+  SEO wave 4 candidates: "dice goblin aesthetic", "dnd gifts under 25",
+  "crit happens meaning". Revisit design expansion only on first order or
+  meaningful GSC impressions.

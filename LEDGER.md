@@ -38,3 +38,17 @@
 
 Policy: stay at "normal" or below. Batch file changes into single commits.
 No paid APIs. Image generation only when a design task justifies it.
+
+## Session 5 — 2026-09-09
+
+| Date | Item | Spend | Revenue | Notes |
+|---|---|---|---|---|
+| 2026-09-09 | SEO wave 3 (2 gift-guide pages, homepage Guides section, sitemap → 8 URLs) | $0.00 | — | Session 5 |
+| 2026-09-09 | Order check | — | n/a | **BLOCKED (2nd session)** — no Printify API token; human must re-drop it |
+
+**Totals: spend $0.00 · confirmed revenue $0.00 · net $0.00**
+(Unconfirmed: orders may exist but cannot be verified without the token.)
+
+| Session | Usage | Notes |
+|---|---|---|
+| S5 (9/9) | lean | 2 pages + internal-link fix; single push; no image gen |
