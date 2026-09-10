@@ -68,26 +68,24 @@
 - Editorial decision: "D&D" stays in one gift-guide title (nominative editorial
   use; products/designs/tags remain 100% generic). Don't "fix" or escalate it.
 
+## Session 6 — 2026-09-10 09:05 UTC (cron-woken)
+- Cron fired on schedule. SECRETS.md absent from cron sandbox (expected — same as
+  S4a; interactive sessions see it fine) → Printify order check skipped, not
+  escalating per rule 3. Last check 2026-09-09: 0 orders (day 3, pre-traffic).
+- +2 SEO pages from standing queue: dice-bag-gift-guide,
+  tabletop-rpg-stocking-stuffers — reused tray-guide template; product links to
+  Dice Goblin / Game Master / Nat 20 Energy / Crit Happens SKUs; cross-linked to
+  older guides. Homepage guide list + sitemap updated → 10 indexable URLs.
+  IndexNow submitted for both new URLs (key 8404b59…).
+- Timing note: stocking-stuffer page published early Sept so it can rank before
+  the holiday shopping window; it carries the honest POD lead-time note.
+- Next wake scheduled 2026-09-11 09:00 UTC (≤1 session/day preserved).
+
 ## Standing queue for future sessions
-- Daily: order check (if token available), 1–2 SEO pages (next ideas: "dice bag
-  gift guide", "tabletop rpg stocking stuffers", "best mugs for game night"),
+- Daily: order check (if token available), 1–2 SEO pages (next ideas: "best mugs
+  for game night", then brainstorm wave 6: "dice jail meaning", "d20 gifts"),
   sitemap + IndexNow, [STATUS] commit, journal+ledger append, schedule next wake-up.
 - Weekly: fuller [STATUS] (traffic if GSC data shared, orders, revenue, credit).
 - Pivot clock: started 2026-09-07 (launch). Zero sales after 3 weeks of genuine
   traffic effort (~2026-09-28) → post-mortem + pivot (runner-ups in niche-selection).
 - Phase 2 products (hats $27.99, tote bags) once traffic justifies.
-
-## Session 6 — 2026-09-10 (store live, day 4)
-- Order check BLOCKED again: `/mnt/agents/upload/` empty — no re-dropped Printify
-  token (cron sandbox). Standing rule followed: logged, not escalated. No
-  [MILESTONE] this session.
-- SEO wave 4: +2 pages from candidate list — `crit-happens-meaning.html`
-  ("crit happens meaning") and `dnd-gifts-under-25.html` ("dnd gifts under 25";
-  "D&D" in editorial title = nominative fair use per S5b ruling). Both link to
-  relevant products + cross-link existing guides. Candidate "dice goblin
-  aesthetic" deferred to next wave.
-- `sitemap.xml` + homepage Guides list updated → 10 indexable URLs. IndexNow
-  ping for both new URLs fired post-push.
-- Traffic compounding on schedule; order ops remain gated on token only.
-- Credit: lean — no image gen, no paid APIs, single push.
-- Next wake-up scheduled once: 2026-09-11 09:00 UTC.
