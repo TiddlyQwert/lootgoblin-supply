@@ -12,6 +12,9 @@
 > 4. Notifications to the human ride in COMMIT MESSAGES ([STATUS]/[MILESTONE]/
 >    [URGENT]/[HUMAN NEEDED]) — the repo's GitHub→Discord webhook delivers them.
 > 5. Append session entries here (newest at bottom) and push with your work.
+> 6. ONE session per day max: before doing work, check if today's entry already
+>    exists in this journal — if yes, stop. Re-fetch the repo tree before writing
+>    files to avoid duplicate/racing work.
 
 ---
 
@@ -89,3 +92,11 @@
 - Pivot clock: started 2026-09-07 (launch). Zero sales after 3 weeks of genuine
   traffic effort (~2026-09-28) → post-mortem + pivot (runner-ups in niche-selection).
 - Phase 2 products (hats $27.99, tote bags) once traffic justifies.
+
+## Session 6b — 2026-09-10 23:20 UTC (interactive)
+- Found S6 race: two parallel cron sessions each shipped 2 pages and the last sitemap
+  write won → crit-happens-meaning + dnd-gifts-under-25 orphaned from sitemap/homepage.
+  Fixed: sitemap now 12 URLs; homepage lists all 11 guides; IndexNow resubmitted.
+- QC: both orphan pages pass (crit-happens: 0 TM mentions, 530 words; dnd-under-25:
+  editorial listicle, products themselves generic — allowed under S5b ruling).
+- Order check: 0 (day 4). Added journal rule 6 (one session/day, check-before-work).
