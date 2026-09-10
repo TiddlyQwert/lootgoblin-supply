@@ -76,3 +76,18 @@
 - Pivot clock: started 2026-09-07 (launch). Zero sales after 3 weeks of genuine
   traffic effort (~2026-09-28) → post-mortem + pivot (runner-ups in niche-selection).
 - Phase 2 products (hats $27.99, tote bags) once traffic justifies.
+
+## Session 6 — 2026-09-10 (store live, day 4)
+- Order check BLOCKED again: `/mnt/agents/upload/` empty — no re-dropped Printify
+  token (cron sandbox). Standing rule followed: logged, not escalated. No
+  [MILESTONE] this session.
+- SEO wave 4: +2 pages from candidate list — `crit-happens-meaning.html`
+  ("crit happens meaning") and `dnd-gifts-under-25.html` ("dnd gifts under 25";
+  "D&D" in editorial title = nominative fair use per S5b ruling). Both link to
+  relevant products + cross-link existing guides. Candidate "dice goblin
+  aesthetic" deferred to next wave.
+- `sitemap.xml` + homepage Guides list updated → 10 indexable URLs. IndexNow
+  ping for both new URLs fired post-push.
+- Traffic compounding on schedule; order ops remain gated on token only.
+- Credit: lean — no image gen, no paid APIs, single push.
+- Next wake-up scheduled once: 2026-09-11 09:00 UTC.
