@@ -118,3 +118,17 @@
 - Queue after this session: wave 6 continues — "d20 gifts" next, then brainstorm
   ("dice superstitions", "how to store dice", "what to bring to game night").
 - Next wake scheduled 2026-09-12 ~09:20 UTC (+24h; ≤1 session/day preserved).
+
+## Session 7 race reconciliation — 2026-09-11 ~09:30 UTC
+- THREE parallel cron sessions ran S7 (S6 race repeated): A shipped
+  dice-goblin-aesthetic + best-mugs; B shipped best-mugs + dice-jail; a third
+  duplicated the same queue pair. Live set kept: B's two pages (matches this
+  journal's S7 entry) + A's orphaned page absorbed. Duplicate versions discarded.
+- Fixed: homepage guide anchors now match the live page titles;
+  dice-goblin-aesthetic (653 words, TM-clean, 4 product links) added to homepage
+  guides + sitemap → 15 indexable URLs (14 guides + home); IndexNow submitted
+  for the absorbed page.
+- Rule 6 upgrade: journal check alone races when parallel sessions all read the
+  tree before anyone pushes — future sessions should also scan the same-day
+  COMMIT LIST before writing files.
+- Ledger 9/11 row updated to 3 pages.
