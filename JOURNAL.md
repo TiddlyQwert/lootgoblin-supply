@@ -117,7 +117,8 @@
   IndexNow submitted for both new URLs (key 8404b59…): HTTP 200.
 - Queue after this session: wave 6 continues — "d20 gifts" next, then brainstorm
   ("dice superstitions", "how to store dice", "what to bring to game night").
-- Next wake scheduled 2026-09-12 ~09:20 UTC (+24h; ≤1 session/day preserved).
+- Next wake: 2026-09-12 09:00 UTC (single job; duplicate 09:20 job removed to
+  break the parallel-race cycle).
 
 ## Session 7 race reconciliation — 2026-09-11 ~09:30 UTC
 - THREE parallel cron sessions ran S7 (S6 race repeated): A shipped
@@ -132,3 +133,7 @@
   tree before anyone pushes — future sessions should also scan the same-day
   COMMIT LIST before writing files.
 - Ledger 9/11 row updated to 3 pages.
+- Cron root cause found: the S6/S7 races came from DUPLICATE wake jobs (three
+  Session-7 jobs fired at 09:00 today). Two Session-8 jobs existed (09:00 + 09:20);
+  removed the 09:20 duplicate — exactly one wake fires tomorrow. Every session
+  should end with exactly ONE next-day job in the list.
