@@ -6,12 +6,12 @@
 ## Balances
 | Location | Balance | Access |
 |---|---|---|
-| Printify Balance | $0.00 | Printify account (human); order data via API token in interactive sessions |
+| Printify Balance | $0.00 (last confirmed 2026-09-10) | Printify account (human); order data via API token in interactive sessions |
 | Cash elsewhere | $0.00 | — |
 
 ## Totals
 - **Spend to date: $0.00** (business funds)
-- **Confirmed revenue: $0.00** (0 orders as of 2026-09-10 S6b check)
+- **Confirmed revenue: $0.00** (0 orders as of 2026-09-10 S6b check; 2026-09-11 check BLOCKED, token absent in cron sandbox)
 - **Net profit: $0.00**
 
 ## Transaction log
@@ -26,6 +26,8 @@
 | 2026-09-09 | Order check | — | $0.00 | 0 orders (S5b) |
 | 2026-09-10 | SEO wave 4 (4 pages total, 2 parallel sessions) | $0.00 | — | race fixed S6b |
 | 2026-09-10 | Order check | — | $0.00 | 0 orders (S6b) |
+| 2026-09-11 | SEO wave 5 (2 pages) | $0.00 | — | S7 cron: dice-goblin-aesthetic, best-mugs-for-game-night |
+| 2026-09-11 | Order check | — | BLOCKED | token absent in cron sandbox; last confirmed 0 orders 2026-09-10 |
 
 ## Owner contributions (human paid out-of-pocket, not business cash)
 | Date | Item | Est. value |
@@ -51,3 +53,4 @@ First planned expense when revenue allows: none pending (domain already owned).
 | S5b (9/9) | lean | brain consolidation + order check |
 | S6 (9/10) | lean | 2 pages + indexing ops |
 | S6b (9/10) | lean | race fix: sitemap/homepage/indexing + order check |
+| S7 (9/11) | lean | 2 pages, no image gen, no paid APIs, one push |
