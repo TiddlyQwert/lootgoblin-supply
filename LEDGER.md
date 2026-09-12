@@ -27,6 +27,7 @@
 | 2026-09-10 | SEO wave 4 (4 pages total, 2 parallel sessions) | $0.00 | — | race fixed S6b |
 | 2026-09-10 | Order check | — | $0.00 | 0 orders (S6b) |
 | 2026-09-11 | SEO wave 5 (3 pages) + IndexNow | $0.00 | — | S7: 3 parallel sessions, race reconciled; order check skipped (no token in cron sandbox) |
+| 2026-09-12 | SEO wave 6 (2 pages) + IndexNow | $0.00 | — | S8: order check BLOCKED (no token in cron sandbox) |
 
 ## Owner contributions (human paid out-of-pocket, not business cash)
 | Date | Item | Est. value |
@@ -53,3 +54,4 @@ First planned expense when revenue allows: none pending (domain already owned).
 | S6 (9/10) | lean | 2 pages + indexing ops |
 | S6b (9/10) | lean | race fix: sitemap/homepage/indexing + order check |
 | S7 (9/11) | lean | 3 pages + race reconciliation + indexing ops |
+| S8 (9/12) | lean | 2 pages + indexing ops; no image gen, no paid APIs, single push |

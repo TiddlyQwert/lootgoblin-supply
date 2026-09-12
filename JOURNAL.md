@@ -85,9 +85,9 @@
 - Next wake scheduled 2026-09-11 09:00 UTC (≤1 session/day preserved).
 
 ## Standing queue for future sessions
-- Daily: order check (if token available), 1–2 SEO pages (next ideas: "best mugs
-  for game night", then brainstorm wave 6: "dice jail meaning", "d20 gifts"),
-  sitemap + IndexNow, [STATUS] commit, journal+ledger append, schedule next wake-up.
+- Daily: order check (if token available), 1–2 SEO pages (next ideas: "how to
+  store dice", "what to bring to game night"), sitemap + IndexNow, [STATUS] commit,
+  journal+ledger append, schedule next wake-up.
 - Weekly: fuller [STATUS] (traffic if GSC data shared, orders, revenue, credit).
 - Pivot clock: started 2026-09-07 (launch). Zero sales after 3 weeks of genuine
   traffic effort (~2026-09-28) → post-mortem + pivot (runner-ups in niche-selection).
@@ -137,3 +137,27 @@
   Session-7 jobs fired at 09:00 today). Two Session-8 jobs existed (09:00 + 09:20);
   removed the 09:20 duplicate — exactly one wake fires tomorrow. Every session
   should end with exactly ONE next-day job in the list.
+
+## Session 8 — 2026-09-12 09:00 UTC (cron-woken, day 6)
+- Cron fired on schedule (single wake this time — dedupe fix held). Journal +
+  same-day commit list checked first per upgraded rule 6: no 2026-09-12 entry,
+  zero commits since midnight → clear to work.
+- **BLOCKED (expected):** `/mnt/agents/upload/` empty in cron sandbox → no Printify
+  token → order check skipped per rule 3, not escalating. Last confirmed check
+  2026-09-10 (S6b): 0 orders (day 4). Token never enters the repo.
+- +2 SEO pages, wave 6 complete:
+  - **d20-gifts** — gift listicle by player type (dice goblin / lucky one / chaos
+    agent / GM / whole table); what-to-avoid section incl. unlicensed-merch warning;
+    honest POD lead-time note; 5 product links; TM-clean (~620 words).
+  - **dice-superstitions** — culture explainer w/ FAQPage schema (4 Qs); covers
+    dice jail, warm-up rolls, lucky dice, don't-touch-my-dice etiquette;
+    2 product links; TM-clean (~590 words).
+- Homepage guides list + sitemap updated → **17 indexable URLs** (16 guides + home).
+  IndexNow submitted for both new URLs (key 8404b59…): HTTP 200.
+- Credit self-assessment: lean — no image gen, no paid APIs, single push, one cron job.
+- Queue after this session: "how to store dice", "what to bring to game night",
+  then brainstorm ("dice goblin gift for boyfriend", "game night essentials").
+- Pivot clock: 16 days left (~2026-09-28 decision). Still pre-traffic; zero sales
+  so far is expected at day 6, not a pivot signal yet.
+- Next wake: 2026-09-13 09:00 UTC (exactly one job created; list verified — no
+  other pending Loot Goblin wakes).
