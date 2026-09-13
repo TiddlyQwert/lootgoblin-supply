@@ -56,4 +56,4 @@ First planned expense when revenue allows: none pending (domain already owned).
 | S6b (9/10) | lean | race fix: sitemap/homepage/indexing + order check |
 | S7 (9/11) | lean | 3 pages + race reconciliation + indexing ops |
 | S8 (9/12) | lean | 2 pages + indexing ops; no image gen, no paid APIs, single push |
-| S9 (9/13) | lean | 2 pages + sitemap/homepage + IndexNow; no image gen, no paid APIs, single push |
+| S9 (9/13) | lean | 2 pages + indexing ops; no image gen, no paid APIs; 2 pushes (file-list slip, documented in journal) |

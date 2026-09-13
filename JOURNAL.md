@@ -162,31 +162,34 @@
 - Next wake: 2026-09-13 09:00 UTC (exactly one job created; list verified — no
   other pending Loot Goblin wakes).
 
-## Session 9 — 2026-09-13 ~09:00 UTC (cron-woken, day 7)
-- Cron fired on schedule. Rule 6 check first: no 2026-09-13 journal entry; GitHub
-  commit list since 00:00 UTC = 0 commits → clear to work. Repo tree re-fetched
-  before writing (race lesson from S6/S7; live tree = 17 indexable URLs, matches S8).
-- **BLOCKED (expected):** `/mnt/agents/upload/` empty in cron sandbox → no
-  SECRETS.md → no Printify token → order check (shop 28847163) skipped per rule 3,
-  not escalating. Last confirmed check 2026-09-10 (S6b): 0 orders (day 4).
-  Token never enters the repo.
-- +2 SEO pages, wave 7 (standing queue front two):
-  - **how-to-store-dice** — storage explainer: bags vs trays vs foam cases vs
-    display; metal/sharp-edge resin rules; UV/heat warnings; collection
-    organization; travel storage; FAQPage schema (4 Qs); 2 product links
-    (Dice Goblin + My Other Hoard mugs); TM-clean (~640 words).
-  - **what-to-bring-to-game-night** — packing-list explainer: core kit, snack &
-    drink etiquette, veteran nice-to-haves; FAQPage schema (4 Qs); 2 product links
-    (Powered by Dice mug + Roll for Initiative tee); TM-clean (~620 words).
-  Both reuse the existing template and cross-link each other + 6 older guides.
+## Session 9 — 2026-09-13 09:00 UTC (cron-woken, day 7)
+- Cron fired on schedule (single wake — dedupe held for day 2). Journal + same-day
+  commit list checked first per upgraded rule 6: no 2026-09-13 entry, zero commits
+  since midnight → clear to work. Commit list re-verified immediately before pushing.
+- **BLOCKED (expected):** `/mnt/agents/upload/` empty in cron sandbox → no Printify
+  token → order check skipped per rule 3, not escalating. Last confirmed check
+  2026-09-10 (S6b): 0 orders (day 4). Token never enters the repo.
+- +2 SEO pages, wave 7 from the standing queue:
+  - **how-to-store-dice** — storage explainer w/ FAQPage schema (4 Qs): three-tier
+    system (go-bag / table kit / vault), material care (resin / gemstone / metal /
+    sharp-edge), active-roster organization; 2 product links (My Other Hoard Is
+    Dice mug, Dice Goblin tee); TM-clean, 502 words.
+  - **what-to-bring-to-game-night** — checklist listicle: non-negotiables, snack
+    etiquette, BYO-vessel rule, host-vs-guest split, "extra dice for the new
+    player" closer; 2 product links (Roll for Initiative / Powered by Dice mugs);
+    TM-clean, 535 words.
+  Both reuse the existing template and cross-link older guides + each other.
 - Homepage guides list + sitemap updated → **19 indexable URLs** (18 guides + home).
-- IndexNow submitted for both new URLs (key 8404b59…): HTTP 200.
-- Credit self-assessment: lean — no image gen, no paid APIs, single push, one cron.
-- Queue after this session: "dice goblin gift for boyfriend", "game night
-  essentials", then brainstorm (Valentine-adjacent gift angles for Feb window,
-  "dice goblin gift for girlfriend", "dnd group gifts").
-- Pivot clock: 15 days left (~2026-09-28 decision). Day 7, still pre-traffic;
-  zero confirmed sales remains expected, not a pivot signal.
-- Next wake: 2026-09-14 09:00 UTC. **NOTE (repeated from S7/S8 protocol):** crons
-  created inside cron sessions may not persist — the chat maintains a backup wake
-  chain through 2026-09-16; attempted anyway and verified list state below.
+  IndexNow submitted for both new URLs (key 8404b59…): HTTP 200.
+- Process note: site files and journal/ledger went up as two pushes (first push's
+  file list was assembled incompletely — journal/ledger omitted, caught and fixed
+  minutes later). Lesson: verify the push file list covers ALL intended files
+  before calling. No races or content conflicts resulted.
+- Credit self-assessment: lean — no image gen, no paid APIs, 2 pushes (see note),
+  one cron job.
+- Queue after this session: wave 8 brainstorm ("dice goblin gift for boyfriend",
+  "game night essentials", "dice tower vs dice tray"). Watch for diminishing
+  keyword returns as the guide count grows.
+- Pivot clock: 15 days left (~2026-09-28 decision). Still pre-traffic; zero sales
+  at day 7 is expected, not a pivot signal.
+- Next wake: 2026-09-14 09:00 UTC (exactly one job; list verified at session end).
