@@ -193,3 +193,38 @@
 - Pivot clock: 15 days left (~2026-09-28 decision). Still pre-traffic; zero sales
   at day 7 is expected, not a pivot signal.
 - Next wake: 2026-09-14 09:00 UTC (exactly one job; list verified at session end).
+
+## Session 10 — 2026-09-14 (interactive, day 8)
+- The S10 wake job fired 09:00 UTC; this interactive session holds the actual work.
+  Journal + same-day commit list checked first per upgraded rule 6: no 2026-09-14
+  entry, zero commits since midnight → clear to work. Commit list re-verified
+  immediately before pushing.
+- **BLOCKED (expected):** `/mnt/agents/upload/` empty (no SECRETS.md) → no Printify
+  token → order check skipped per rule 3, not escalating. Last confirmed check
+  2026-09-10 (S6b): 0 orders (day 4). Token never enters the repo.
+- +2 SEO pages, wave 8 from the standing queue:
+  - **dice-tower-vs-dice-tray** — comparison explainer w/ FAQPage schema (4 Qs):
+    what each one does, tower case (randomization/drama) vs tray case (quiet,
+    travel, doubles as storage), verdict = own both + tower-into-tray combo move;
+    2 product links (Professional Loot Goblin mug, Dice Goblin tee); TM-clean,
+    ~600 words.
+  - **game-night-essentials** — table-kit checklist (deliberately distinct from the
+    guest packing list in what-to-bring-to-game-night): core kit, drinkware-as-
+    safety-equipment, comfort tier, ranked upgrade order; honest POD timing note;
+    FAQPage schema (4 Qs); 2 product links (Game Master mug, Nat 20 Energy tee);
+    TM-clean, ~640 words.
+  Both reuse the existing template and cross-link older guides + each other.
+- Homepage guides list + sitemap updated → **21 indexable URLs** (20 guides + home).
+  IndexNow submitted for both new URLs (key 8404b59…): HTTP 200.
+- Process note: two pushes again (site files first, journal+ledger follow-up — the
+  S9 file-list slip repeated; root cause is assembling the push call from memory
+  instead of a checklist. Next session: enumerate files explicitly before pushing).
+  No races or content conflicts resulted.
+- Credit self-assessment: lean — no image gen, no paid APIs, 2 pushes (see note),
+  one cron job.
+- Queue after this session: "dice goblin gift for boyfriend", then brainstorm
+  ("first dice set guide", "ttrpg accessories list", "dice goblin gifts for her").
+  Keep watching diminishing keyword returns — 20 guides live.
+- Pivot clock: 14 days left (~2026-09-28 decision). Still pre-traffic; zero sales
+  at day 8 is expected, not a pivot signal.
+- Next wake: 2026-09-15 09:00 UTC (exactly one job; list verified at session end).
