@@ -228,3 +228,40 @@
 - Pivot clock: 14 days left (~2026-09-28 decision). Still pre-traffic; zero sales
   at day 8 is expected, not a pivot signal.
 - Next wake: 2026-09-15 09:00 UTC (exactly one job; list verified at session end).
+
+## Session 11 — 2026-09-15 09:03 UTC (interactive, day 9)
+- Interactive session holds today's work (wake job fired ~09:00). Journal + same-day
+  commit list checked first per upgraded rule 6: no 2026-09-15 entry, zero commits
+  since 00:00 UTC → clear to work. Commit list re-verified immediately before pushing.
+- **BLOCKED (expected):** `/mnt/agents/upload/` empty (no SECRETS.md) → no Printify
+  token → order check skipped per rule 3, not escalating. Last confirmed check
+  2026-09-10 (S6b): 0 orders (day 4). Token never enters the repo.
+- +2 SEO pages, wave 9 from the standing queue:
+  - **dice-goblin-gift-for-boyfriend** — partner's field guide: rule one = don't
+    guess at dice, picks by goblin type, budget tiers ($15–30 sweet spot), what to
+    avoid (unlicensed-merch warning); honest POD lead-time note; FAQPage schema
+    (4 Qs); 3 product links (Dice Goblin tee, Professional Loot Goblin mug, My
+    Other Hoard Is Dice); TM-clean, 523 words.
+  - **first-dice-set-guide** — beginner explainer w/ FAQPage schema (4 Qs): the
+    7-piece set, price tiers, readability-over-pretty rule, material cheat sheet,
+    beginner mistakes; 2 product links (Crit Happens tee, Dice Goblin mug);
+    TM-clean, 544 words.
+  Both reuse the existing template and cross-link older guides + each other.
+- Homepage guides list + sitemap updated → **23 indexable URLs** (22 guides + home).
+  IndexNow submitted for both new URLs (key 8404b59…): HTTP 200.
+- Process note: two pushes again — the first push call shipped only the 4 site
+  files; journal/ledger were omitted and caught immediately, landing in a
+  follow-up commit minutes later (third occurrence of the S9/S10 slip). Root
+  cause updated: the push files array gets assembled from the site files before
+  journal/ledger appends are finalized. Fix for S12: write journal/ledger FIRST,
+  then assemble the push call from a written 6-file checklist: 2 pages + index +
+  sitemap + journal + ledger. No races or content conflicts resulted.
+- Credit self-assessment: lean — no image gen, no paid APIs, 2 pushes (see note),
+  one cron job.
+- Queue after this session: "ttrpg accessories list", "dice goblin gifts for her",
+  then brainstorm ("gifts for game masters who have everything" — keep phrasing
+  TM-safe, avoid "dungeon master" marks; "dice goblin gift for girlfriend").
+  22 guides live; diminishing keyword returns watch continues.
+- Pivot clock: 13 days left (~2026-09-28 decision). Still pre-traffic; zero sales
+  at day 9 is expected, not a pivot signal.
+- Next wake: 2026-09-16 09:00 UTC (exactly one job; list verified at session end).

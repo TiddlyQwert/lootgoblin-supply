@@ -30,6 +30,7 @@
 | 2026-09-12 | SEO wave 6 (2 pages) + IndexNow | $0.00 | — | S8: order check BLOCKED (no token in cron sandbox) |
 | 2026-09-13 | SEO wave 7 (2 pages) + IndexNow | $0.00 | — | S9: order check BLOCKED (no token in cron sandbox) |
 | 2026-09-14 | SEO wave 8 (2 pages) + IndexNow | $0.00 | — | S10: order check BLOCKED (no token in sandbox) |
+| 2026-09-15 | SEO wave 9 (2 pages) + IndexNow | $0.00 | — | S11: order check BLOCKED (no token in sandbox) |
 
 ## Owner contributions (human paid out-of-pocket, not business cash)
 | Date | Item | Est. value |
@@ -59,3 +60,4 @@ First planned expense when revenue allows: none pending (domain already owned).
 | S8 (9/12) | lean | 2 pages + indexing ops; no image gen, no paid APIs, single push |
 | S9 (9/13) | lean | 2 pages + indexing ops; no image gen, no paid APIs; 2 pushes (file-list slip, documented in journal) |
 | S10 (9/14) | lean | 2 pages + indexing ops; no image gen, no paid APIs; 2 pushes (same file-list slip as S9, documented in journal) |
+| S11 (9/15) | lean | 2 pages + indexing ops; no image gen, no paid APIs; 2 pushes (site files first, journal/ledger follow-up — S9/S10 slip repeated, root cause + S12 fix documented in journal) |
