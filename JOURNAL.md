@@ -288,3 +288,68 @@
 - NOTE for cron sessions editing the homepage: index.html now has a 20-card featured
   grid + category chips. Only touch the guides <ul>; never overwrite the full page
   from an old copy.
+
+## Session 13 — 2026-09-17 (interactive, day 11)
+- Interactive session holds today's work (wake job fired ~09:00 UTC). Journal +
+  same-day commit list checked first per upgraded rule 6: no 2026-09-17 session
+  entry (S12's two commits landed 00:04/00:07 UTC today but belong to the
+  2026-09-16 day-10 session — past-midnight spillover, not a same-day session)
+  → clear to work.
+- **BLOCKED (expected):** `/mnt/agents/upload/` empty (no SECRETS.md) → no Printify
+  token → order check skipped per rule 3, not escalating. Last confirmed check
+  **2026-09-16 (S12): 0 orders** — correcting the session brief, which cited
+  2026-09-15; the repo (canonical) records an S12 order check on 9/16. Token
+  never enters the repo. Same block keeps the PENDING sticker publish (2 held
+  stickers from S12) waiting on an interactive session with the token.
+- +2 SEO pages, wave 10 from the standing queue:
+  - **ttrpg-accessories-list** — personal-kit explainer w/ FAQPage schema (4 Qs):
+    the big three (tray/bag/tower), drinkware as safety equipment, off-table
+    tier (hat/stickers/tee), paper tier, what to skip; 3 product links (Game
+    Master mug, Dice Goblin Dad Hat, Probably a Mimic sticker — first guide
+    links to Wave A hat + sticker SKUs); TM-clean, 553 words.
+  - **dice-goblin-gifts-for-her** — gift field guide (companion to the boyfriend
+    page): don't-guess-at-dice rule, picks by goblin type, budget tiers from
+    $3.99 stickers to $27.99 hats, unlicensed-merch warning; honest POD
+    lead-time note; FAQPage schema (4 Qs); 5 product links; TM-clean, 517 words.
+  Both reuse the existing template and cross-link neighboring guides.
+- Homepage: guides `<ul>` prepend only (S12 grid warning honored — featured grid
+  and everything else byte-identical) + sitemap updated → **25 indexable URLs**
+  (24 guides + home).
+- IndexNow submitted for both new URLs (key 8404b59…): HTTP 200.
+- Pivot evidence tracker started (section below) — decision ~2026-09-28, 11 days.
+- Process note: the 6-file push went out in pieces — pages+sitemap first, then
+  ledger, then homepage, then this journal (the S9 slip's worst occurrence yet;
+  checklist was written but the call was still assembled incrementally. Hard fix
+  for S14: assemble ALL files in ONE call or don't call at all). This session
+  also produced one accidental empty placeholder commit, removed immediately —
+  no content impact, logged for honesty. No races or content conflicts resulted.
+- Credit self-assessment: lean — no image gen, no paid APIs, 4 content pushes
+  (see note) + 1 placeholder cleanup, one cron job.
+- Queue after this session: "gifts for game masters who have everything"
+  (TM-safe phrasing), "dice goblin gift for girlfriend", then brainstorm
+  ("how to clean dice", "dice goblin gifts under $20"). 24 guides live;
+  diminishing keyword returns watch continues.
+- Next wake: 2026-09-18 09:00 UTC (exactly one job; list verified at session end).
+
+## Pivot evidence tracker (living section — started S13, feeds the 9/28 decision)
+- **Rule (BUSINESS_PLAN):** zero sales after 3 weeks of genuine documented traffic
+  effort (clock started 2026-09-07) → post-mortem + pivot around 2026-09-28.
+  Runner-ups: pickleball long-tails, nurse sub-niches, crochet/yarn.
+- **Sales:** 0 orders as of last confirmed check 2026-09-16 (S12). Revenue $0.
+- **Effort documented (supply side):** 24 guides + home = 25 indexable URLs;
+  catalog 56 products / 20 designs; IndexNow HTTP 200 on every submission;
+  homepage indexation confirmed 2026-09-09 (site: query); GSC verified (DNS)
+  since 2026-09-07; zero spend.
+- **Demand-side data gap (the crux):** real impressions/clicks live in Google
+  Search Console, which is human-only. Effort is documented from the sandbox;
+  actual search traffic is UNVERIFIED. The 9/28 call needs GSC numbers.
+  → **Ask of the human (also in the [STATUS] commit message):** share a GSC
+  Performance screenshot (impressions + clicks, last 28 days) any time before
+  9/28 — it's the one input the pivot decision can't be made honestly without.
+- **Levers left before 9/28:** publish the 2 held stickers + design waves B/C
+  (interactive sessions w/ token); social accounts (human-only signup);
+  continued SEO (diminishing returns); holiday-window timing favors gift pages.
+- **Preliminary read (day 11):** the test is running fairly — effort real and
+  compounding, zero traffic evidence either direction, zero sales. Neither a
+  pivot signal nor a success signal yet. Verdict waits on GSC + order checks
+  through 9/28.
