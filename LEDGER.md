@@ -33,6 +33,7 @@
 | 2026-09-15 | SEO wave 9 (2 pages) + IndexNow | $0.00 | — | S11 |
 | 2026-09-16 | Wave A: +40 products (12 designs, hats, stickers) | $0.00 | — | catalog 16 → 56 |
 | 2026-09-16 | Order check | — | $0.00 | 0 orders (S12) |
+| 2026-09-17 | SEO wave 10 (2 pages) + IndexNow | $0.00 | — | S13: order check BLOCKED (no token); last confirmed 0 orders 9/16 |
 
 ## Owner contributions (human paid out-of-pocket, not business cash)
 | Date | Item | Est. value |
@@ -60,3 +61,4 @@ First planned expense when revenue allows: none pending (domain already owned).
 | S5b (9/9) | lean | brain consolidation + order check |
 | S6–S11 (9/10–9/15) | lean | 2 SEO pages/day + indexing ops |
 | S12 (9/16) | heavy | 6 image gens @2880px, 61 uploads, ~90 product API writes, homepage rebuild — owner-directed variety push |
+| S13 (9/17) | lean | 2 SEO pages + indexing ops + pivot tracker |
