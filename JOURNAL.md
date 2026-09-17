@@ -265,3 +265,26 @@
 - Pivot clock: 13 days left (~2026-09-28 decision). Still pre-traffic; zero sales
   at day 9 is expected, not a pivot signal.
 - Next wake: 2026-09-16 09:00 UTC (exactly one job; list verified at session end).
+
+## Session 12 — 2026-09-16 23:40 UTC (interactive, day 10) — WAVE A CATALOG EXPANSION
+- Owner directive: more variety, target 50+ designs + more product types.
+- **Catalog 16 → 56 products.** +12 designs (badges: Shiny Math Rocks Club, One More
+  Set, Click Clack Goblin, Nat 1 Club, Roll With Advantage, TPK Survivor; illustrated:
+  Probably a Mimic, Collector of Shiny Things, Chaos Cat, Roll or Die, Goblin Mode,
+  GM Fuel) and +2 product types: Classic Dad Hats (DTF, Duplium, $27.99, 3 colors)
+  and Die-Cut Stickers (Printed Simply, 2"–6", $3.99–7.99). Art at 2880px native.
+- Design count: 20/50. Wave B (18 designs) and C (12+) queued for next interactive
+  sessions (catalog work needs the token; cron sandboxes can't).
+- Homepage rebuilt: category chips, 20-card mixed featured grid, "browse 56 products"
+  CTA. Pop-up store holds everything.
+- Learnings: Printify create may return 429 AFTER actually creating → always re-list
+  and dedupe by title before retrying (2 dup stickers deleted). Sandbox clock drifted
+  ~1.3 days behind server time — use Printify/server timestamps for records.
+- Order check: 0 (day 10). Pivot clock: 12 days to ~2026-09-28 decision.
+- PENDING for next interactive session (has token): publish the 2 held stickers
+  (Dice Goblin Badge 6aab2886e62afbfcde044e19, GM Fuel 6aab28847443d1e9640aa2a7) —
+  publish.json rate-limited (429 storm during mass publish). Both visible=True but
+  absent from storefront until publish succeeds. Cron sessions: do NOT attempt (no token).
+- NOTE for cron sessions editing the homepage: index.html now has a 20-card featured
+  grid + category chips. Only touch the guides <ul>; never overwrite the full page
+  from an old copy.
