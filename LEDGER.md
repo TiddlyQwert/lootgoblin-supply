@@ -11,7 +11,7 @@
 
 ## Totals
 - **Spend to date: $0.00** (business funds)
-- **Confirmed revenue: $0.00** (0 orders as of 2026-09-10 S6b check)
+- **Confirmed revenue: $0.00** (0 orders as of 2026-09-16 S12 check)
 - **Net profit: $0.00**
 
 ## Transaction log
@@ -26,11 +26,13 @@
 | 2026-09-09 | Order check | — | $0.00 | 0 orders (S5b) |
 | 2026-09-10 | SEO wave 4 (4 pages total, 2 parallel sessions) | $0.00 | — | race fixed S6b |
 | 2026-09-10 | Order check | — | $0.00 | 0 orders (S6b) |
-| 2026-09-11 | SEO wave 5 (3 pages) + IndexNow | $0.00 | — | S7: 3 parallel sessions, race reconciled; order check skipped (no token in cron sandbox) |
+| 2026-09-11 | SEO wave 5 (3 pages) + IndexNow | $0.00 | — | S7: race reconciled; order check skipped (no token) |
 | 2026-09-12 | SEO wave 6 (2 pages) + IndexNow | $0.00 | — | S8: order check BLOCKED (no token in cron sandbox) |
-| 2026-09-13 | SEO wave 7 (2 pages) + IndexNow | $0.00 | — | S9: order check BLOCKED (no token in cron sandbox) |
-| 2026-09-14 | SEO wave 8 (2 pages) + IndexNow | $0.00 | — | S10: order check BLOCKED (no token in sandbox) |
-| 2026-09-15 | SEO wave 9 (2 pages) + IndexNow | $0.00 | — | S11: order check BLOCKED (no token in sandbox) |
+| 2026-09-13 | SEO wave 7 (2 pages) + IndexNow | $0.00 | — | S9 |
+| 2026-09-14 | SEO wave 8 (2 pages) + IndexNow | $0.00 | — | S10 |
+| 2026-09-15 | SEO wave 9 (2 pages) + IndexNow | $0.00 | — | S11 |
+| 2026-09-16 | Wave A: +40 products (12 designs, hats, stickers) | $0.00 | — | catalog 16 → 56 |
+| 2026-09-16 | Order check | — | $0.00 | 0 orders (S12) |
 
 ## Owner contributions (human paid out-of-pocket, not business cash)
 | Date | Item | Est. value |
@@ -40,6 +42,8 @@
 ## Unit economics (Printify free plan, US orders)
 - Tee (Bella+Canvas 3001): list $23.99 → est. profit ~$7–10
 - Mug (11oz): list $16.99 → est. profit ~$7–10
+- Dad hat (DTF): list $27.99 → est. profit ~$8–12
+- Sticker: list $3.99–7.99 → small profit, add-on item
 - Prices include buffer for possible sales tax on Printify cost (pop-up rule).
 
 ## Spending rules (mission)
@@ -54,10 +58,5 @@ First planned expense when revenue allows: none pending (domain already owned).
 | S4a/S4b (9/8) | lean | recovery + 2 pages + checks |
 | S5 (9/9) | lean | 2 pages |
 | S5b (9/9) | lean | brain consolidation + order check |
-| S6 (9/10) | lean | 2 pages + indexing ops |
-| S6b (9/10) | lean | race fix: sitemap/homepage/indexing + order check |
-| S7 (9/11) | lean | 3 pages + race reconciliation + indexing ops |
-| S8 (9/12) | lean | 2 pages + indexing ops; no image gen, no paid APIs, single push |
-| S9 (9/13) | lean | 2 pages + indexing ops; no image gen, no paid APIs; 2 pushes (file-list slip, documented in journal) |
-| S10 (9/14) | lean | 2 pages + indexing ops; no image gen, no paid APIs; 2 pushes (same file-list slip as S9, documented in journal) |
-| S11 (9/15) | lean | 2 pages + indexing ops; no image gen, no paid APIs; 2 pushes (site files first, journal/ledger follow-up — S9/S10 slip repeated, root cause + S12 fix documented in journal) |
+| S6–S11 (9/10–9/15) | lean | 2 SEO pages/day + indexing ops |
+| S12 (9/16) | heavy | 6 image gens @2880px, 61 uploads, ~90 product API writes, homepage rebuild — owner-directed variety push |
